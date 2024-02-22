@@ -1,19 +1,8 @@
-.alert {
-    padding: 2rem;
-    width: 20rem;
-    color: white;
-    border-radius: 0.3rem;
-    background-color: rgb(43, 191, 208);
-    margin-bottom: 1rem;
-    display: flex;
-    justify-content: space-between;
+
+.list-group {
+    display: none;
 }
 
-.button {
-    padding: 0.5rem 2rem;
-    border-radius: 0.3rem;
-}
-
-.close {
-    padding: 1rem;
+.show {
+    display: block;
 }
