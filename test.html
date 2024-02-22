@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/test.css">
+</head>
+<body>
+    <div class="alert" id="alert">
+        alert
+        <button class="alert_button" onclick="알림창닫기()">X</button>
+    </div>
+    <button class="button" onclick="알림창열기()">버튼</button>
+    
+
+    <script>
+        function 알림창닫기() {
+            document.getElementById('alert').style.display='none';
+        }
+        function 알림창열기() {
+            document.getElementById('alert').style.display='block';
+        }
+    </script>
+</body>
+</html>

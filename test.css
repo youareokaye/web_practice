@@ -1,0 +1,18 @@
+.alert {
+    padding: 10px;
+    background-color: rgb(165, 165, 237);
+    width: 30rem;
+    border-radius: 0.3rem;
+    display: none;
+    position: relative;
+}
+
+.button {
+    padding : 10px 30px;
+}
+
+.alert_button {
+    padding : 5px;
+    position: absolute;
+    right:10px;
+}
